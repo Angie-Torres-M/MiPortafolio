@@ -15,12 +15,12 @@ window.translations = {
     },
 
     hero: {
-      kicker: "Portafolio · Full Stack Development (React/TypeScript/APIs)",
+      kicker: "Portafolio · Full Stack Development (React/TypeScript/JavaScript/APIs)",
       title: 'Hola, soy <span class="text-accent">Angie Torres</span>',
       description:
-        "Soy Full Stack Developer con experiencia construyendo aplicaciones web responsivas con React, TypeScript y APIs REST. Trabajo de punta a punta en frontend, backend, datos, autenticación, pruebas, CI/CD e infraestructura.",
+        "Soy Full Stack Developer con experiencia construyendo aplicaciones web responsivas con React, TypeScript, JavaScript y APIs REST. Trabajo de punta a punta en frontend, backend, datos, autenticación, pruebas, CI/CD e infraestructura.",
       bullets: {
-        ui: "Frontend con React, TypeScript y diseño responsive",
+        ui: "Frontend con React, TypeScript, JavaScript y diseño responsive",
         components: "Componentes reutilizables e integración con APIs REST",
         js: "Backend con Python/FastAPI y Java/Spring Boot",
         git: "Git, Docker, CI/CD y despliegues en la nube",
@@ -41,7 +41,7 @@ window.translations = {
         "También trabajo con PostgreSQL, autenticación, APIs REST, Git, Docker y CI/CD. Me interesa desarrollar productos mantenibles de punta a punta, cuidando tanto la experiencia de usuario como la integración entre frontend, backend, datos e infraestructura.",
       cards: {
         role: { label: "Rol principal", value: "Full Stack Developer" },
-        focus: { label: "Enfoques", value: "React, TypeScript, REST APIs" },
+        focus: { label: "Enfoques", value: "React, TypeScript, JavaScript, REST APIs" },
         interests: { label: "Intereses", value: "eCommerce, APIs, automation" },
         fun: { label: "Fun fact", value: "Dog-mom de mi perrito Chewbacca" },
       },
@@ -54,7 +54,7 @@ window.translations = {
         frontend: { title: "Frontend", desc: "React | TypeScript | JavaScript | HTML | CSS", badge: "Responsive Web" },
         design: { title: "APIs & Backend", desc: "REST | FastAPI | Spring Boot | OpenAPI", badge: "Integraciones" },
         backend: { title: "Data & Auth", desc: "PostgreSQL | MySQL | Firebase | Keycloak", badge: "OAuth2 / OIDC / JWT" },
-        tools: { title: "Tools", desc: "Git | GitHub | Docker | CI/CD", badge: "Entrega continua" },
+        tools: { title: "DevOps & Cloud", desc: "Git | GitHub | Docker | CI/CD", badge: "Despliegues cloud" },
       },
     },
 
@@ -78,10 +78,10 @@ window.translations = {
       title: "Proyectos",
       subtitle: "Proyectos recientes de desarrollo Full Stack, frontend, APIs y productos web.",
       maizEcommerce: {
-        title: "Maíz Fundido – eCommerce Full Stack", badge: "En desarrollo",
+        title: "Maíz Fundido – Plataforma eCommerce Full Stack", badge: "Producto actual · En desarrollo",
         p1: "Plataforma eCommerce end-to-end con catálogo, variantes, inventario, autenticación, carrito, promociones y flujos administrativos.",
         role: "Desarrollo Full Stack de frontend, backend, datos, autenticación, CI/CD e infraestructura.",
-        tech: "React, TypeScript, REST APIs, PostgreSQL, Firebase Auth, Docker, GitHub Actions, Cloudflare.",
+        tech: "React, TypeScript, JavaScript, REST APIs, PostgreSQL, Firebase Auth, Docker, GitHub Actions, Railway, Cloudflare y R2 Object Storage.",
         challenges: "alinear contratos frontend/backend, mantener flujos de inventario y autenticación consistentes y desplegar cambios de forma incremental.",
         learn: "administración de catálogo, importación estructurada, seguridad y endurecimiento de UX.",
       },
@@ -92,7 +92,7 @@ window.translations = {
         tech: "formularios complejos, datos estructurados, métricas, evidencia y seguimiento institucional.",
       },
       donalap: {
-        title: "DoñaLap – Dashboard y administración", badge: "ADIP · Proyecto institucional",
+        title: "DónaLap – Dashboard y administración", badge: "ADIP · Proyecto institucional",
         p1: "Plataforma para gestión de donación y rehabilitación de equipos de cómputo, con flujos para distintos perfiles de usuario.",
         role: "Participación en dashboard, métricas, tarjetas, flujos administrativos e integración con APIs.",
         tech: "dashboards, administración, roles, seguimiento de donaciones e integración frontend-backend.",
@@ -104,7 +104,7 @@ window.translations = {
         tech: "base de datos, catálogo de perros, administración de refugios y control centralizado de información.",
       },
       maizLanding: {
-        title: "Maíz Fundido – Landing & catálogo digital", badge: "Freelance · Producción",
+        title: "Maíz Fundido – Sitio comercial & catálogo", badge: "Sitio independiente · Producción",
         p1: "Landing responsiva para una marca de impresión 3D, con presentación de productos, contacto y catálogo visual embebido.",
         role: "Diseño, maquetado, implementación responsive y despliegue.",
         tech: "HTML, CSS, JavaScript, Bootstrap, Cloudflare Pages.",
@@ -139,8 +139,8 @@ window.translations = {
       education: {
         title: "Formación",
         items: {
-          bootcamp: {
-            title: "Bootcamp Full Stack Java",
+          intensiveCourse: {
+            title: "Curso intensivo Full Stack Java",
             meta: "Generation México · 2025",
             desc: "Full Stack con Java + desarrollo web (HTML, CSS, JS). Git/GitHub y trabajo en equipo.",
           },
@@ -211,12 +211,12 @@ window.translations = {
     },
 
     hero: {
-      kicker: "PORTFOLIO · FULL STACK DEVELOPMENT (REACT/TYPESCRIPT/APIS)",
+      kicker: "PORTFOLIO · FULL STACK DEVELOPMENT (REACT/TYPESCRIPT/JAVASCRIPT/APIS)",
       title: `Hi, I'm <span class="text-accent">Angie Torres</span>`,
       description:
-        "I am a Full Stack Developer building responsive web applications with React, TypeScript, and REST APIs. I work across frontend, backend, data, authentication, testing, CI/CD, and infrastructure.",
+        "I am a Full Stack Developer building responsive web applications with React, TypeScript, JavaScript, and REST APIs. I work across frontend, backend, data, authentication, testing, CI/CD, and infrastructure.",
       bullets: {
-        ui: "Frontend with React, TypeScript, and responsive design",
+        ui: "Frontend with React, TypeScript, JavaScript, and responsive design",
         components: "Reusable components and REST API integration",
         js: "Backend with Python/FastAPI and Java/Spring Boot",
         git: "Git, Docker, CI/CD, and cloud deployments",
@@ -237,7 +237,7 @@ window.translations = {
         "I’ve worked with HTML, CSS, Bootstrap, JavaScript, and React, as well as Git/GitHub. I’m looking to keep growing as a APIs & Backender and Frontend Developer, strengthening UI/UX, accessibility, and implementation best practices, with a well-rounded view of web development.",
       cards: {
         role: { label: "Main role", value: "Full Stack Developer" },
-        focus: { label: "Focus", value: "React, TypeScript, REST APIs" },
+        focus: { label: "Focus", value: "React, TypeScript, JavaScript, REST APIs" },
         interests: { label: "Interests", value: "eCommerce, APIs, automation" },
         fun: { label: "Fun fact", value: "Dog mom to my pup Chewbacca" },
       },
@@ -250,7 +250,7 @@ window.translations = {
         frontend: { title: "Frontend", desc: "React | TypeScript | JavaScript | HTML | CSS", badge: "Responsive Web" },
         design: { title: "APIs & Backend", desc: "REST | FastAPI | Spring Boot | OpenAPI", badge: "Integrations" },
         backend: { title: "Data & Auth", desc: "PostgreSQL | MySQL | Firebase | Keycloak", badge: "OAuth2 / OIDC / JWT" },
-        tools: { title: "Tools", desc: "Git | GitHub | Docker | CI/CD", badge: "Continuous delivery" },
+        tools: { title: "DevOps & Cloud", desc: "Git | GitHub | Docker | CI/CD", badge: "Cloud deployments" },
       },
     },
 
@@ -274,10 +274,10 @@ window.translations = {
       title: "Projects",
       subtitle: "Recent Full Stack, frontend, API, and web product projects.",
       maizEcommerce: {
-        title: "Maíz Fundido – Full Stack eCommerce", badge: "In development",
+        title: "Maíz Fundido – Full Stack eCommerce Platform", badge: "Current product · In development",
         p1: "End-to-end eCommerce platform with catalog, variants, inventory, authentication, cart, promotions, and administrative workflows.",
         role: "Full Stack development across frontend, backend, data, authentication, CI/CD, and infrastructure.",
-        tech: "React, TypeScript, REST APIs, PostgreSQL, Firebase Auth, Docker, GitHub Actions, Cloudflare.",
+        tech: "React, TypeScript, JavaScript, REST APIs, PostgreSQL, Firebase Auth, Docker, GitHub Actions, Railway, Cloudflare and R2 Object Storage.",
         challenges: "aligning frontend/backend contracts, keeping inventory and authentication flows consistent, and deploying changes incrementally.",
         learn: "catalog administration, structured imports, security, and UX hardening.",
       },
@@ -288,7 +288,7 @@ window.translations = {
         tech: "complex forms, structured data, metrics, evidence, and institutional tracking.",
       },
       donalap: {
-        title: "DoñaLap – Dashboard & administration", badge: "ADIP · Institutional project",
+        title: "DónaLap – Dashboard & administration", badge: "ADIP · Institutional project",
         p1: "Platform for managing computer donation and refurbishment workflows across different user profiles.",
         role: "Contributions to dashboards, metrics, cards, administrative workflows, and API integrations.",
         tech: "dashboards, administration, roles, donation tracking, and frontend-backend integration.",
@@ -300,7 +300,7 @@ window.translations = {
         tech: "database, dog catalog, shelter administration, and centralized information management.",
       },
       maizLanding: {
-        title: "Maíz Fundido – Landing & digital catalog", badge: "Freelance · Production",
+        title: "Maíz Fundido – Commercial Site & Catalog", badge: "Independent site · Production",
         p1: "Responsive landing page for a 3D-printing brand with product presentation, contact information, and an embedded visual catalog.",
         role: "Design, layout, responsive implementation, and deployment.",
         tech: "HTML, CSS, JavaScript, Bootstrap, Cloudflare Pages.",
@@ -335,8 +335,8 @@ window.translations = {
       education: {
         title: "Education",
         items: {
-          bootcamp: {
-            title: "Full Stack Java Bootcamp",
+          intensiveCourse: {
+            title: "Intensive Full Stack Java Course",
             meta: "Generation Mexico · 2025",
             desc: "Full Stack with Java + web development (HTML, CSS, JS). Git/GitHub and teamwork.",
           },

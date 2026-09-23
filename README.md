@@ -7,15 +7,15 @@ Portafolio profesional de Angie Torres, Full Stack Developer.
 - REST APIs, Python/FastAPI y Java/Spring Boot
 - PostgreSQL / MySQL
 - Autenticación y autorización
-- Git, Docker y CI/CD
+- Git, Docker, CI/CD, Railway, Cloudflare y R2 Object Storage
 - Desarrollo responsive y productos eCommerce
 
 ## Proyectos destacados
-- Maíz Fundido — eCommerce Full Stack en desarrollo
-- Maíz Fundido — Landing & catálogo digital
+- Maíz Fundido — Plataforma eCommerce Full Stack
+- Maíz Fundido — Sitio comercial & catálogo
 - Template para Emprendimientos — QR/NFC + i18n
 - FunOnTrip — eCommerce web
-- Experiencia profesional seleccionada: Territorios de Paz y DoñaLap
+- Experiencia profesional seleccionada: Territorios de Paz y DónaLap
 
 ## Ejecutar en local
 ```bash
