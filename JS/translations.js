@@ -15,15 +15,15 @@ window.translations = {
     },
 
     hero: {
-      kicker: "Portafolio · Web Design & Frontend (HTML/CSS/Bootstrap/JS)",
+      kicker: "Portafolio · Full Stack Development (React/TypeScript/APIs)",
       title: 'Hola, soy <span class="text-accent">Angie Torres</span>',
       description:
-        "Me especializo en diseño web y desarrollo frontend, enfocada en crear interfaces limpias, responsivas y accesibles. Disfruto convertir ideas en experiencias claras para el usuario, con atención al detalle visual y un mantenimiento de código cuidadoso.",
+        "Soy Full Stack Developer con experiencia construyendo aplicaciones web responsivas con React, TypeScript y APIs REST. Trabajo de punta a punta en frontend, backend, datos, autenticación, pruebas, CI/CD e infraestructura.",
       bullets: {
-        ui: "UI responsive con Bootstrap (mobile-first)",
-        components: "Maquetación y componentes reutilizables",
-        js: "Integración con JavaScript (DOM, fetch)",
-        git: "Trabajo colaborativo con Git/GitHub y despliegues en GitHub Pages",
+        ui: "Frontend con React, TypeScript y diseño responsive",
+        components: "Componentes reutilizables e integración con APIs REST",
+        js: "Backend con Python/FastAPI y Java/Spring Boot",
+        git: "Git, Docker, CI/CD y despliegues en la nube",
       },
       buttons: {
         projects: "Ver proyectos",
@@ -36,13 +36,13 @@ window.translations = {
     about: {
       title: "Acerca de mí",
       p1:
-        "Soy desarrolladora web con formación Full Stack y una base sólida en frontend y diseño de interfaces. Me enfoco en construir experiencias claras y consistentes, con componentes reutilizables, buena jerarquía visual y un enfoque mobile-first.",
+        "Soy Full Stack Developer con experiencia práctica construyendo aplicaciones web y flujos de negocio. Trabajo con React, TypeScript y JavaScript en frontend, y con Python/FastAPI y Java/Spring Boot para servicios e integraciones backend.",
       p2:
-        "He trabajado con HTML, CSS, Bootstrap, JavaScript y React, además de Git/GitHub. Busco seguir creciendo como Web Designer y Frontend Developer, fortaleciendo UI/UX, accesibilidad y buenas prácticas de implementación, con una visión integral del desarrollo web.",
+        "También trabajo con PostgreSQL, autenticación, APIs REST, Git, Docker y CI/CD. Me interesa desarrollar productos mantenibles de punta a punta, cuidando tanto la experiencia de usuario como la integración entre frontend, backend, datos e infraestructura.",
       cards: {
-        role: { label: "Rol principal", value: "Web Designer / Frontend Developer" },
-        focus: { label: "Enfoques", value: "UI, responsive, accesibilidad" },
-        interests: { label: "Intereses", value: "Design systems, UX/UI, performance" },
+        role: { label: "Rol principal", value: "Full Stack Developer" },
+        focus: { label: "Enfoques", value: "React, TypeScript, REST APIs" },
+        interests: { label: "Intereses", value: "eCommerce, APIs, automation" },
         fun: { label: "Fun fact", value: "Dog-mom de mi perrito Chewbacca" },
       },
     },
@@ -51,10 +51,10 @@ window.translations = {
       title: "Habilidades",
       subtitle: "Tecnologías y habilidades que utilizo en mis proyectos.",
       cards: {
-        frontend: { title: "Frontend", desc: "HTML | CSS | Bootstrap | JS | React", badge: "Responsive & UI" },
-        design: { title: "Web Design", desc: "Layouts | Componentes | Tipografía", badge: "Jerarquía visual" },
-        backend: { title: "Backend (base)", desc: "Java | C# | POO", badge: "Buenas prácticas" },
-        tools: { title: "Tools", desc: "Git/GitHub | GitHub Pages", badge: "Trabajo en equipo" },
+        frontend: { title: "Frontend", desc: "React | TypeScript | JavaScript | HTML | CSS", badge: "Responsive Web" },
+        design: { title: "APIs & Backend", desc: "REST | FastAPI | Spring Boot | OpenAPI", badge: "Integraciones" },
+        backend: { title: "Data & Auth", desc: "PostgreSQL | MySQL | Firebase | Keycloak", badge: "OAuth2 / OIDC / JWT" },
+        tools: { title: "Tools", desc: "Git | GitHub | Docker | CI/CD", badge: "Entrega continua" },
       },
     },
 
@@ -70,54 +70,71 @@ window.translations = {
       less: "Ver menos",
       github: "Código en GitHub",
       demo: "Ver demo",
+      staging: "Ver staging",
+      admin: "Ver módulo admin",
     },
 
     projects: {
       title: "Proyectos",
-      subtitle: "Selección de proyectos enfocados en Web Design, frontend e integración con JavaScript.",
-
+      subtitle: "Proyectos recientes de desarrollo Full Stack, frontend, APIs y productos web.",
+      maizEcommerce: {
+        title: "Maíz Fundido – eCommerce Full Stack", badge: "En desarrollo",
+        p1: "Plataforma eCommerce end-to-end con catálogo, variantes, inventario, autenticación, carrito, promociones y flujos administrativos.",
+        role: "Desarrollo Full Stack de frontend, backend, datos, autenticación, CI/CD e infraestructura.",
+        tech: "React, TypeScript, REST APIs, PostgreSQL, Firebase Auth, Docker, GitHub Actions, Cloudflare.",
+        challenges: "alinear contratos frontend/backend, mantener flujos de inventario y autenticación consistentes y desplegar cambios de forma incremental.",
+        learn: "administración de catálogo, importación estructurada, seguridad y endurecimiento de UX.",
+      },
+      territorios: {
+        title: "Territorios de Paz e Igualdad", badge: "ADIP · Plataforma institucional",
+        p1: "Plataforma para captura, seguimiento y visualización de información de actividades realizadas en territorios estratégicos de la Ciudad de México.",
+        role: "Desarrollo de formularios, flujos de captura y apoyo a métricas y reportes institucionales.",
+        tech: "formularios complejos, datos estructurados, métricas, evidencia y seguimiento institucional.",
+      },
+      donalap: {
+        title: "DoñaLap – Dashboard y administración", badge: "ADIP · Proyecto institucional",
+        p1: "Plataforma para gestión de donación y rehabilitación de equipos de cómputo, con flujos para distintos perfiles de usuario.",
+        role: "Participación en dashboard, métricas, tarjetas, flujos administrativos e integración con APIs.",
+        tech: "dashboards, administración, roles, seguimiento de donaciones e integración frontend-backend.",
+      },
+      rescate: {
+        title: "Rescate Canino CDMX", badge: "Prototipo institucional",
+        p1: "Prototipo para centralizar información de albergues y perros rescatados en la Ciudad de México mediante un portal de consulta y administración.",
+        role: "Diseño de estructura de datos, vistas de consulta y flujos administrativos para gestión de albergues.",
+        tech: "base de datos, catálogo de perros, administración de refugios y control centralizado de información.",
+      },
+      maizLanding: {
+        title: "Maíz Fundido – Landing & catálogo digital", badge: "Freelance · Producción",
+        p1: "Landing responsiva para una marca de impresión 3D, con presentación de productos, contacto y catálogo visual embebido.",
+        role: "Diseño, maquetado, implementación responsive y despliegue.",
+        tech: "HTML, CSS, JavaScript, Bootstrap, Cloudflare Pages.",
+      },
+      ayuda: {
+        title: "Ayuda ADIP – Portal de autoservicio", badge: "ADIP · Plataforma institucional",
+        p1: "Interfaz para consulta y categorización de solicitudes de soporte institucional, diseñada para orientar a las personas hacia el trámite o servicio correcto.",
+        role: "Participación en interfaz, navegación, búsqueda, filtros y organización de categorías de servicio.",
+        tech: "experiencia de usuario, búsqueda, filtrado, cards de servicios y navegación institucional.",
+      },
+      other: {
+        title: "Otros proyectos",
+        subtitle: "Proyectos complementarios de frontend y trabajo colaborativo.",
+      },
+      template: {
+        title: "Template para Emprendimientos – QR/NFC", badge: "Template · Frontend",
+        p1: "Template reutilizable para micrositios de emprendimientos, invitaciones y presentaciones digitales accesibles mediante QR o NFC.",
+        role: "Diseño de arquitectura frontend configurable, responsive e internacionalizable.",
+        tech: "HTML, CSS, JavaScript, i18n ES/EN, dark mode, configuración por JS.",
+      },
       funontrip: {
-        title: "FunOnTrip – E-commerce de viajes",
-        badge: "Equipo · Web",
+        title: "FunOnTrip – E-commerce de viajes", badge: "Equipo · Web",
         p1: "Plataforma para explorar paquetes de viaje, con UI responsive y componentes reutilizables.",
-        role: "UI frontend (Bootstrap), responsive y documentación.",
+        role: "UI frontend, responsive, documentación e integración en equipo.",
         tech: "HTML, CSS, Bootstrap, JavaScript, Git/GitHub.",
-        challenges: "coordinación del equipo, manejo de ramas en Git e integración de vistas.",
-        learn: "flujo de trabajo en equipo, consistencia visual y mantenimiento de UI.",
-      },
-
-      maiz: {
-        title: "Maíz Fundido – Landing de marca",
-        badge: "Freelance · Web",
-        p1: "Landing page para marca de impresión 3D, enfocada en presentación de productos y contacto.",
-        role: "Diseño UI, maquetado y estilos responsive.",
-        tech: "HTML, CSS, Bootstrap, GitHub Pages.",
-        challenges: "identidad visual coherente y jerarquía clara de secciones.",
-        learn: "diseño centrado en el usuario, layout limpio y optimización móvil.",
-      },
-
-      peach: {
-        title: "PEACH",
-        badge: "Personal · Frontend",
-        p1: "Aplicación web sencilla para convertir escalas de temperatura con interfaz clara.",
-        role: "UI básica y lógica de conversión.",
-        tech: "HTML, CSS, JavaScript.",
-        learn: "eventos en JS, validación simple y despliegue en GitHub Pages.",
-      },
-
-      fakestore: {
-        title: "FakeStore API – Productos con fetch()",
-        badge: "Académico · Frontend",
-        p1: 'Sitio web que obtiene productos desde la API pública FakeStore usando <code>fetch()</code> y renderiza tarjetas dinámicas.',
-        role: "Integración API, render dinámico y estilos con Bootstrap.",
-        tech: "JavaScript, Fetch API, HTML, CSS, Bootstrap.",
-        learn: "promesas, async/await, DOM y estructura por componentes con JS.",
       },
     },
-
     cv: {
       title: "Resumen",
-      subtitle: "Formación y habilidades enfocadas en frontend y web design.",
+      subtitle: "Formación y habilidades para desarrollo Full Stack y productos web.",
 
       education: {
         title: "Formación",
@@ -175,7 +192,7 @@ window.translations = {
       p1: "¿Te gustaría colaborar o tienes alguna vacante que encaje con mi perfil?",
       emailLabel: "Escríbeme a:",
       cvBtn: "Ver CV",
-      copyright: "© 2025 Angie Torres. Todos los derechos reservados. Ciudad de México",
+      copyright: "© 2026 Angie Torres. Todos los derechos reservados. México",
     },
   },
 
@@ -194,15 +211,15 @@ window.translations = {
     },
 
     hero: {
-      kicker: "PORTFOLIO · WEB DESIGN & FRONTEND (HTML/CSS/BOOTSTRAP/JS)",
+      kicker: "PORTFOLIO · FULL STACK DEVELOPMENT (REACT/TYPESCRIPT/APIS)",
       title: `Hi, I'm <span class="text-accent">Angie Torres</span>`,
       description:
-        "I specialize in web design and frontend development, focused on building clean, responsive, and accessible interfaces. I enjoy turning ideas into clear user experiences, with strong visual attention and careful code maintenance.",
+        "I am a Full Stack Developer building responsive web applications with React, TypeScript, and REST APIs. I work across frontend, backend, data, authentication, testing, CI/CD, and infrastructure.",
       bullets: {
-        ui: "Responsive UI with Bootstrap (mobile-first)",
-        components: "Layout and reusable components",
-        js: "JavaScript integration (DOM, fetch)",
-        git: "Collaborative Git/GitHub workflow and GitHub Pages deployments",
+        ui: "Frontend with React, TypeScript, and responsive design",
+        components: "Reusable components and REST API integration",
+        js: "Backend with Python/FastAPI and Java/Spring Boot",
+        git: "Git, Docker, CI/CD, and cloud deployments",
       },
       buttons: {
         projects: "View projects",
@@ -215,13 +232,13 @@ window.translations = {
     about: {
       title: "About me",
       p1:
-        "I’m a web developer with Full Stack training and a solid foundation in frontend and interface design. I focus on building clear and consistent experiences, using reusable components, strong visual hierarchy, and a mobile-first approach.",
+        "I am a Full Stack Developer with hands-on experience building web applications and business workflows. I use React, TypeScript, and JavaScript on the frontend, and Python/FastAPI and Java/Spring Boot for backend services and integrations.",
       p2:
-        "I’ve worked with HTML, CSS, Bootstrap, JavaScript, and React, as well as Git/GitHub. I’m looking to keep growing as a Web Designer and Frontend Developer, strengthening UI/UX, accessibility, and implementation best practices, with a well-rounded view of web development.",
+        "I’ve worked with HTML, CSS, Bootstrap, JavaScript, and React, as well as Git/GitHub. I’m looking to keep growing as a APIs & Backender and Frontend Developer, strengthening UI/UX, accessibility, and implementation best practices, with a well-rounded view of web development.",
       cards: {
-        role: { label: "Main role", value: "Web Designer / Frontend Developer" },
-        focus: { label: "Focus", value: "UI, responsive, accessibility" },
-        interests: { label: "Interests", value: "Design systems, UX/UI, performance" },
+        role: { label: "Main role", value: "Full Stack Developer" },
+        focus: { label: "Focus", value: "React, TypeScript, REST APIs" },
+        interests: { label: "Interests", value: "eCommerce, APIs, automation" },
         fun: { label: "Fun fact", value: "Dog mom to my pup Chewbacca" },
       },
     },
@@ -230,10 +247,10 @@ window.translations = {
       title: "Skills",
       subtitle: "Technologies and skills I use in my projects.",
       cards: {
-        frontend: { title: "Frontend", desc: "HTML | CSS | Bootstrap | JS | React", badge: "Responsive & UI" },
-        design: { title: "Web Design", desc: "Layouts | Components | Typography", badge: "Visual hierarchy" },
-        backend: { title: "Backend (foundation)", desc: "Java | C# | OOP", badge: "Best practices" },
-        tools: { title: "Tools", desc: "Git/GitHub | GitHub Pages", badge: "Teamwork" },
+        frontend: { title: "Frontend", desc: "React | TypeScript | JavaScript | HTML | CSS", badge: "Responsive Web" },
+        design: { title: "APIs & Backend", desc: "REST | FastAPI | Spring Boot | OpenAPI", badge: "Integrations" },
+        backend: { title: "Data & Auth", desc: "PostgreSQL | MySQL | Firebase | Keycloak", badge: "OAuth2 / OIDC / JWT" },
+        tools: { title: "Tools", desc: "Git | GitHub | Docker | CI/CD", badge: "Continuous delivery" },
       },
     },
 
@@ -249,54 +266,71 @@ window.translations = {
       less: "Show less",
       github: "View code",
       demo: "Live demo",
+      staging: "View staging",
+      admin: "View admin module",
     },
 
     projects: {
       title: "Projects",
-      subtitle: "A selection of projects focused on Web Design, frontend, and JavaScript integration.",
-
+      subtitle: "Recent Full Stack, frontend, API, and web product projects.",
+      maizEcommerce: {
+        title: "Maíz Fundido – Full Stack eCommerce", badge: "In development",
+        p1: "End-to-end eCommerce platform with catalog, variants, inventory, authentication, cart, promotions, and administrative workflows.",
+        role: "Full Stack development across frontend, backend, data, authentication, CI/CD, and infrastructure.",
+        tech: "React, TypeScript, REST APIs, PostgreSQL, Firebase Auth, Docker, GitHub Actions, Cloudflare.",
+        challenges: "aligning frontend/backend contracts, keeping inventory and authentication flows consistent, and deploying changes incrementally.",
+        learn: "catalog administration, structured imports, security, and UX hardening.",
+      },
+      territorios: {
+        title: "Territorios de Paz e Igualdad", badge: "ADIP · Institutional platform",
+        p1: "Platform for capturing, tracking, and visualizing activity information across strategic areas of Mexico City.",
+        role: "Development of forms, data-capture workflows, and support for institutional metrics and reporting.",
+        tech: "complex forms, structured data, metrics, evidence, and institutional tracking.",
+      },
+      donalap: {
+        title: "DoñaLap – Dashboard & administration", badge: "ADIP · Institutional project",
+        p1: "Platform for managing computer donation and refurbishment workflows across different user profiles.",
+        role: "Contributions to dashboards, metrics, cards, administrative workflows, and API integrations.",
+        tech: "dashboards, administration, roles, donation tracking, and frontend-backend integration.",
+      },
+      rescate: {
+        title: "Rescate Canino CDMX", badge: "Institutional prototype",
+        p1: "Prototype designed to centralize information about shelters and rescued dogs in Mexico City through a public-facing and administrative portal.",
+        role: "Design of data structure, consultation views, and administrative workflows for shelter management.",
+        tech: "database, dog catalog, shelter administration, and centralized information management.",
+      },
+      maizLanding: {
+        title: "Maíz Fundido – Landing & digital catalog", badge: "Freelance · Production",
+        p1: "Responsive landing page for a 3D-printing brand with product presentation, contact information, and an embedded visual catalog.",
+        role: "Design, layout, responsive implementation, and deployment.",
+        tech: "HTML, CSS, JavaScript, Bootstrap, Cloudflare Pages.",
+      },
+      ayuda: {
+        title: "Ayuda ADIP – Self-service portal", badge: "ADIP · Institutional platform",
+        p1: "Interface for browsing and categorizing institutional support requests, designed to guide users toward the correct service or request type.",
+        role: "Contributions to interface, navigation, search, filters, and service-category organization.",
+        tech: "user experience, search, filtering, service cards, and institutional navigation.",
+      },
+      other: {
+        title: "Other projects",
+        subtitle: "Complementary frontend and collaborative projects.",
+      },
+      template: {
+        title: "Small Business Template – QR/NFC", badge: "Template · Frontend",
+        p1: "Reusable template for small-business microsites, digital invitations, and presentations accessible through QR or NFC.",
+        role: "Configurable, responsive, and internationalized frontend architecture.",
+        tech: "HTML, CSS, JavaScript, ES/EN i18n, dark mode, JS-based configuration.",
+      },
       funontrip: {
-        title: "FunOnTrip – Travel e-commerce",
-        badge: "Team · Web",
+        title: "FunOnTrip – Travel e-commerce", badge: "Team · Web",
         p1: "Platform to explore travel packages, with responsive UI and reusable components.",
-        role: "Frontend UI (Bootstrap), responsive implementation, and documentation.",
+        role: "Frontend UI, responsive implementation, documentation, and team integration.",
         tech: "HTML, CSS, Bootstrap, JavaScript, Git/GitHub.",
-        challenges: "team coordination, Git branching, and view integration.",
-        learn: "team workflow, visual consistency, and UI maintainability.",
-      },
-
-      maiz: {
-        title: "Maíz Fundido – Brand landing page",
-        badge: "Freelance · Web",
-        p1: "Landing page for a 3D printing brand, focused on product showcase and contact.",
-        role: "UI design, layout, and responsive styling.",
-        tech: "HTML, CSS, Bootstrap, GitHub Pages.",
-        challenges: "consistent visual identity and clear section hierarchy.",
-        learn: "user-centered design, clean layout, and mobile optimization.",
-      },
-
-      peach: {
-        title: "PEACH",
-        badge: "Personal · Frontend",
-        p1: "Simple web app to convert temperature scales with a clear interface.",
-        role: "Basic UI and conversion logic.",
-        tech: "HTML, CSS, JavaScript.",
-        learn: "JS events, simple validation, and GitHub Pages deployment.",
-      },
-
-      fakestore: {
-        title: "FakeStore API – Products with fetch()",
-        badge: "Academic · Frontend",
-        p1: 'Website that fetches products from the public FakeStore API using <code>fetch()</code> and renders dynamic cards.',
-        role: "API integration, dynamic rendering, and Bootstrap styling.",
-        tech: "JavaScript, Fetch API, HTML, CSS, Bootstrap.",
-        learn: "promises, async/await, DOM, and a component-like JS structure.",
       },
     },
-
     cv: {
       title: "Summary",
-      subtitle: "Training and skills focused on frontend and web design.",
+      subtitle: "Training and skills for Full Stack development and web products.",
 
       education: {
         title: "Education",
@@ -353,7 +387,7 @@ window.translations = {
       p1: "Would you like to collaborate, or do you have a role that fits my profile?",
       emailLabel: "Email me at:",
       cvBtn: "View CV",
-      copyright: "© 2025 Angie Torres. All rights reserved. Mexico City",
+      copyright: "© 2026 Angie Torres. All rights reserved. Mexico",
     },
   },
 };

@@ -5,6 +5,18 @@ function getNestedTranslation(obj, path) {
   return path.split(".").reduce((acc, key) => (acc ? acc[key] : undefined), obj);
 }
 
+function updateCvDownloadLink(lang) {
+  const cvLink = document.getElementById("cv-download-link");
+  if (!cvLink) return;
+
+  cvLink.href =
+    lang === "en"
+      ? "Doc/brand/Angelica_Torres_FullStack_EN.pdf"
+      : "Doc/brand/CV_Angelica_Torres_FullStack_ES.pdf";
+
+  cvLink.setAttribute("rel", "noopener noreferrer");
+}
+
 function applyLanguage(lang) {
   // translations viene de translations.js
   if (!window.translations || !window.translations[lang]) {
@@ -25,6 +37,9 @@ function applyLanguage(lang) {
       el.innerHTML = t;
     }
   });
+
+  // Sincroniza el CV descargable con el idioma activo.
+  updateCvDownloadLink(lang);
 
   // Estado visual del switch (desktop y móvil)
   const btnDesktop = document.getElementById("lang-toggle");
